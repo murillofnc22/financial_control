@@ -7,9 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="TesteDG" AutoGenerateColumns="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Content="Salvar" Click="Button_Click"/>
+
+        <DataGrid x:Name="DgvMovimentações" AutoGenerateColumns="False" Grid.Row="1">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Tipo" Binding="{Binding Tipo_movimentacao}"/>
+                <DataGridTextColumn Header="Forma de Pag" Binding="{Binding Forma_pagamento}"/>
+                <DataGridTextColumn Header="Categoria" Binding="{Binding Categoria}"/>
+                <DataGridTextColumn Header="Valor" Binding="{Binding Valor}"/>
+                <DataGridTextColumn Header="Recebimento" Binding="{Binding Data_recebimento}"/>
+                <DataGridTextColumn Header="Vencimento" Binding="{Binding Data_vencimento}"/>
+                <DataGridTextColumn Header="Pagamento" Binding="{Binding Data_pagamento}"/>
+                <DataGridTextColumn Header="Taxas" Binding="{Binding Taxas}"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

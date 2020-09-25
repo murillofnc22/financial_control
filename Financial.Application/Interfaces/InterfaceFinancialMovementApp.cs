@@ -1,8 +1,8 @@
-﻿using Financial.Application.Interfaces.Generics;
+﻿using Financial.ApplicationApp.Interfaces.Generics;
 using Financial.Entities.Entities;
 using System.Threading.Tasks;
 
-namespace Financial.Application.Interfaces
+namespace Financial.ApplicationApp.Interfaces
 {
     public interface InterfaceFinancialMovementApp : InterfaceGenericApp<FinancialMovement>
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Financial.Application.Interfaces.Generics
+namespace Financial.ApplicationApp.Interfaces.Generics
 {
     public interface InterfaceGenericApp<T> where T : class
     {

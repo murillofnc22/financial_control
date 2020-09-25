@@ -1,4 +1,4 @@
-﻿using Financial.Application.Interfaces;
+﻿using Financial.ApplicationApp.Interfaces;
 using Financial.Entities.Entities;
 using Financial.Domain.Interfaces.InterfaceFinancialMovement;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Financial.Domain.Interfaces.InterfaceServices;
 
-namespace Financial.Application.OpenApp
+namespace Financial.ApplicationApp.OpenApp
 {
     public class AppFinancialMovement : InterfaceFinancialMovementApp
     {

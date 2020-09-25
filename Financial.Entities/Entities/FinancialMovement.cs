@@ -11,11 +11,11 @@ namespace Financial.Entities.Entities
         public bool Tipo_movimentacao { get; set; } //debito ou crédito
 
         [Display(Name = "Forma de Pagamento")]
-        [Column("Forma_pagamento", TypeName = "string")]
+        [Column("Forma_pagamento", TypeName = "varchar(100)")]
         public string Forma_pagamento { get; set; } //boleto, cartão, dinheiro)
 
         [Display(Name = "Categoria")]
-        [Column("Categoria", TypeName = "string")]
+        [Column("Categoria", TypeName = "varchar(100)")]
         public string Categoria { get; set; } //moradia, transporte, lazer
 
         [Display(Name = "Valor")]

@@ -9,7 +9,7 @@ namespace Financial.Infra.Configuration
 
         public ContextBase(DbContextOptions<ContextBase> options) : base(options)
         {
-            Database.EnsureCreated(); //parece que isso aqui é pra quando usa codefirst, vou usar Migration
+            //Database.EnsureCreated(); //parece que isso aqui é pra quando usa codefirst, vou usar Migration
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

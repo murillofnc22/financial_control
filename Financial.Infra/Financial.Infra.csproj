@@ -5,14 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Financial.Domain\Financial.Domain.csproj" />
     <ProjectReference Include="..\Financial.Entities\Financial.Entities.csproj" />
   </ItemGroup>
 

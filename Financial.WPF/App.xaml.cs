@@ -4,8 +4,10 @@ using Financial.Domain.Interfaces.Generics;
 using Financial.Domain.Interfaces.InterfaceFinancialMovement;
 using Financial.Domain.Interfaces.InterfaceServices;
 using Financial.Domain.Services;
+using Financial.Infra.Configuration;
 using Financial.Infra.Repository.Generic;
 using Financial.Infra.Repository.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System.Windows;
 
@@ -28,6 +30,8 @@ namespace Financial.WPF
             services.AddSingleton<IFinancialMovement, RepositoryFinancialMovement>();
             services.AddSingleton<InterfaceFinancialMovementApp, AppFinancialMovement>();
             services.AddSingleton<IServiceFinancialMovement, ServiceFinancialMovement>();
+
+            services.AddDbContext<ContextBase>(option => option.UseSqlServer("Data Source=.; Initial Catalog=FINCONTROL; Integrated Security=False; User ID=sa; Password=sic742"));
 
             services.AddSingleton<MainWindow>();
         }

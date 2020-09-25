@@ -1,9 +1,6 @@
 ﻿using Financial.Domain.Interfaces.InterfaceFinancialMovement;
 using Financial.Domain.Interfaces.InterfaceServices;
 using Financial.Entities.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Financial.Domain.Services

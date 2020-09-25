@@ -5,15 +5,23 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{52056929-08B9-464D-B077-C65336A3AC2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Entities", "Financial.Entities\Financial.Entities.csproj", "{0D9C4C04-1378-434E-8678-9D33B4794BD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Financial.Entities", "Financial.Entities\Financial.Entities.csproj", "{0D9C4C04-1378-434E-8678-9D33B4794BD2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{536EA81E-2D66-4023-B19F-D9E88B695C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Infra", "Financial.Infra\Financial.Infra.csproj", "{5403F1A1-3CB0-4F6C-A915-543198DAEE64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Financial.Infra", "Financial.Infra\Financial.Infra.csproj", "{5403F1A1-3CB0-4F6C-A915-543198DAEE64}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C93A7B33-7D8F-4758-A93F-5D5E001BABB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.Domain", "Financial.Domain\Financial.Domain.csproj", "{363084F2-AC6F-4F81-A201-3D856D095623}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Financial.Domain", "Financial.Domain\Financial.Domain.csproj", "{363084F2-AC6F-4F81-A201-3D856D095623}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{98147438-7C86-4492-A104-60951C24D0E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Financial.Application", "Financial.Application\Financial.Application.csproj", "{D10939C7-68A4-4A4C-BBEC-80C5E8034B0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{98D1FD29-3B0F-4EF9-9EDD-5180B3E99CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial.WPF", "Financial.WPF\Financial.WPF.csproj", "{13AB90EF-0B70-4BC8-848A-EF198CDA07AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,14 @@ Global
 		{363084F2-AC6F-4F81-A201-3D856D095623}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{363084F2-AC6F-4F81-A201-3D856D095623}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{363084F2-AC6F-4F81-A201-3D856D095623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10939C7-68A4-4A4C-BBEC-80C5E8034B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10939C7-68A4-4A4C-BBEC-80C5E8034B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10939C7-68A4-4A4C-BBEC-80C5E8034B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10939C7-68A4-4A4C-BBEC-80C5E8034B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AB90EF-0B70-4BC8-848A-EF198CDA07AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AB90EF-0B70-4BC8-848A-EF198CDA07AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AB90EF-0B70-4BC8-848A-EF198CDA07AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AB90EF-0B70-4BC8-848A-EF198CDA07AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +57,8 @@ Global
 		{0D9C4C04-1378-434E-8678-9D33B4794BD2} = {52056929-08B9-464D-B077-C65336A3AC2B}
 		{5403F1A1-3CB0-4F6C-A915-543198DAEE64} = {536EA81E-2D66-4023-B19F-D9E88B695C5E}
 		{363084F2-AC6F-4F81-A201-3D856D095623} = {C93A7B33-7D8F-4758-A93F-5D5E001BABB9}
+		{D10939C7-68A4-4A4C-BBEC-80C5E8034B0B} = {98147438-7C86-4492-A104-60951C24D0E3}
+		{13AB90EF-0B70-4BC8-848A-EF198CDA07AB} = {98D1FD29-3B0F-4EF9-9EDD-5180B3E99CE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {044C88FC-0AEC-42C8-A941-58DC76D27089}
